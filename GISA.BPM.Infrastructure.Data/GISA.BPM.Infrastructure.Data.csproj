@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.52" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GISA.BPM.Domain\GISA.BPM.Domain.csproj" />
+    <ProjectReference Include="..\GISA.BPM.HttpContext.Shared\GISA.BPM.HttpContext.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
